@@ -1,0 +1,19 @@
+providers:
+  - Lararoxy\LararoxyServiceProvider
+  - Laravel\Sanctum\SanctumServiceProvider
+  - Workbench\App\Providers\WorkbenchServiceProvider
+
+migrations:
+  - workbench/database/migrations
+
+workbench:
+  install: true
+  discovers:
+    routes: true
+    commands: true
+    factories: true
+
+env:
+  LARAROXY_LOG_LEVEL: minimal
+  LARAROXY_LOG_DRIVER: database
+  LARAROXY_TRACKING_STORE: database

@@ -1,0 +1,32 @@
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHPUnit / Coverage
+.phpunit.cache/
+.phpunit.result.cache
+coverage.xml
+coverage-html/
+
+# Code style
+.php-cs-fixer.cache
+
+# Testbench skeleton (auto-generated)
+/skeleton/
+/.laravel/
+
+# Environment
+.env
+.env.*
+!.env.example
